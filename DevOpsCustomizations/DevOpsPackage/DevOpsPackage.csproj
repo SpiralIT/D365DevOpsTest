@@ -83,6 +83,9 @@
     <Content Include="GettingStarted\support\ImageSprite.png" />
     <Content Include="GettingStarted\support\microsoftLogoForHeader.png" />
     <Content Include="map.xml" />
+    <Content Include="package\other\Customizations.xml" />
+    <Content Include="package\other\Relationships.xml" />
+    <Content Include="package\other\Solution.xml" />
     <Content Include="PkgFolder\Content\en-us\EndHtml\CSS\common.css">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
