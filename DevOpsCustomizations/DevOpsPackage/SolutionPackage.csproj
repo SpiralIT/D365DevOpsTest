@@ -161,6 +161,7 @@
     <Content Include="PkgFolder\ImportConfig.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="PkgFolder\Solution.xml" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config">
