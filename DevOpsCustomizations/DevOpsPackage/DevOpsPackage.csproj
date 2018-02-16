@@ -74,6 +74,46 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="bin\Debug\DevOpsPackage.dll" />
+    <Content Include="bin\Debug\DevOpsPackage.pdb" />
+    <Content Include="bin\Debug\Microsoft.Crm.Sdk.Proxy.dll" />
+    <Content Include="bin\Debug\Microsoft.Crm.Sdk.Proxy.xml" />
+    <Content Include="bin\Debug\Microsoft.IdentityModel.dll" />
+    <Content Include="bin\Debug\Microsoft.Uii.AifServices.dll" />
+    <Content Include="bin\Debug\Microsoft.Uii.Common.dll" />
+    <Content Include="bin\Debug\Microsoft.Xrm.Sdk.Deployment.dll" />
+    <Content Include="bin\Debug\Microsoft.Xrm.Sdk.Deployment.xml" />
+    <Content Include="bin\Debug\Microsoft.Xrm.Sdk.dll" />
+    <Content Include="bin\Debug\Microsoft.Xrm.Sdk.xml" />
+    <Content Include="bin\Debug\Microsoft.Xrm.Tooling.Connector.dll" />
+    <Content Include="bin\Debug\Microsoft.Xrm.Tooling.Connector.xml" />
+    <Content Include="bin\Debug\Microsoft.Xrm.Tooling.PackageDeployment.CrmPackageExtentionBase.dll" />
+    <Content Include="bin\Debug\Microsoft.Xrm.Tooling.PackageDeployment.CrmPackageExtentionBase.xml" />
+    <Content Include="bin\Debug\PkgFolder\Content\en-us\EndHtml\CSS\common.css" />
+    <Content Include="bin\Debug\PkgFolder\Content\en-us\EndHtml\HTML\Default.htm" />
+    <Content Include="bin\Debug\PkgFolder\Content\en-us\EndHtml\Images\body_back.gif" />
+    <Content Include="bin\Debug\PkgFolder\Content\en-us\EndHtml\Images\contentarea_back.gif" />
+    <Content Include="bin\Debug\PkgFolder\Content\en-us\EndHtml\Images\contentArea_back_home.gif" />
+    <Content Include="bin\Debug\PkgFolder\Content\en-us\EndHtml\Images\content_back.gif" />
+    <Content Include="bin\Debug\PkgFolder\Content\en-us\EndHtml\Images\content_back_orig.gif" />
+    <Content Include="bin\Debug\PkgFolder\Content\en-us\EndHtml\Images\footer_back.gif" />
+    <Content Include="bin\Debug\PkgFolder\Content\en-us\EndHtml\Images\header_back.gif" />
+    <Content Include="bin\Debug\PkgFolder\Content\en-us\EndHtml\Images\nav_back.gif" />
+    <Content Include="bin\Debug\PkgFolder\Content\en-us\EndHtml\Images\nav_list_back.gif" />
+    <Content Include="bin\Debug\PkgFolder\Content\en-us\EndHtml\Images\top_item_selected_bg.gif" />
+    <Content Include="bin\Debug\PkgFolder\Content\en-us\WelcomeHtml\CSS\common.css" />
+    <Content Include="bin\Debug\PkgFolder\Content\en-us\WelcomeHtml\HTML\Default.htm" />
+    <Content Include="bin\Debug\PkgFolder\Content\en-us\WelcomeHtml\Images\body_back.gif" />
+    <Content Include="bin\Debug\PkgFolder\Content\en-us\WelcomeHtml\Images\contentarea_back.gif" />
+    <Content Include="bin\Debug\PkgFolder\Content\en-us\WelcomeHtml\Images\contentArea_back_home.gif" />
+    <Content Include="bin\Debug\PkgFolder\Content\en-us\WelcomeHtml\Images\content_back.gif" />
+    <Content Include="bin\Debug\PkgFolder\Content\en-us\WelcomeHtml\Images\content_back_orig.gif" />
+    <Content Include="bin\Debug\PkgFolder\Content\en-us\WelcomeHtml\Images\footer_back.gif" />
+    <Content Include="bin\Debug\PkgFolder\Content\en-us\WelcomeHtml\Images\header_back.gif" />
+    <Content Include="bin\Debug\PkgFolder\Content\en-us\WelcomeHtml\Images\nav_back.gif" />
+    <Content Include="bin\Debug\PkgFolder\Content\en-us\WelcomeHtml\Images\nav_list_back.gif" />
+    <Content Include="bin\Debug\PkgFolder\Content\en-us\WelcomeHtml\Images\top_item_selected_bg.gif" />
+    <Content Include="bin\Debug\PkgFolder\ImportConfig.xml" />
     <Content Include="GettingStarted\GettingStarted.htm" />
     <Content Include="GettingStarted\support\clear.gif" />
     <Content Include="GettingStarted\support\Combined.css" />
@@ -168,6 +208,9 @@
       <SubType>Designer</SubType>
     </None>
     <None Include="PkgFolder\DevOps365Test_1_0_0_0.zip" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\Release\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
