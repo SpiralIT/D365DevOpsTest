@@ -210,7 +210,7 @@
     <None Include="PkgFolder\DevOps365Test_1_0_0_0.zip" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="bin\Release\" />
+    <Folder Include="bin\Release\PkgFolder\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
