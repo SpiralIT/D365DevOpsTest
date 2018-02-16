@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevOpsCustomizations", "Dev
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevOpsPlugins", "DevOpsPlugins\DevOpsPlugins.csproj", "{F04CF427-84DF-4EC0-B269-7AD837F8847D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolutionPackage", "DevOpsPackage\SolutionPackage.csproj", "{170C0103-3F94-4896-9062-6314167F596A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevOpsPackage", "DevOpsPackage\DevOpsPackage.csproj", "{170C0103-3F94-4896-9062-6314167F596A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
