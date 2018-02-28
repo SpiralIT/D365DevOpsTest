@@ -207,6 +207,7 @@
     <None Include="packages.config">
       <SubType>Designer</SubType>
     </None>
+    <None Include="package\Other\WebResources\new_test576C8445-0113-E811-A8A4-00224801A03A" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="bin\Release\PkgFolder\" />

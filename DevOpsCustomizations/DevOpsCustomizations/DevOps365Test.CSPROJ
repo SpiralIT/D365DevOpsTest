@@ -64,5 +64,8 @@
       <Private>True</Private>
     </Reference>
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="js\Test.js" />
+  </ItemGroup>
   <Import Project="Microsoft.Crm.SolutionProjects.Metadata.targets" />
 </Project>

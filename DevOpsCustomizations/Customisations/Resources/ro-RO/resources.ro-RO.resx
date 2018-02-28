@@ -1,0 +1,1175 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="Source LCID" xml:space="preserve">
+    <value>1048</value>
+  </metadata>
+  <metadata name="Source file" xml:space="preserve">
+    <value>HoldingSolution.zip</value>
+  </metadata>
+  <metadata name="Source package type" xml:space="preserve">
+    <value>Unmanaged</value>
+  </metadata>
+  <metadata name="SolutionPackager Version" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAEAQAAAA5TeXN0ZW0uVmVyc2lvbgQAAAAGX01ham9yBl9NaW5vcgZfQnVp
+        bGQJX1JldmlzaW9uAAAAAAgICAgIAAAAAAAAAAAAAAAAAAAACw==
+</value>
+  </metadata>
+  <data name="10:CustomLabel,msdyn_msdyn_incidenttype_incident_IncidentType" xml:space="preserve">
+    <value />
+    <comment>Incident CustomLabel for EntityRelationship 'msdyn_msdyn_incidenttype_incident_IncidentType'</comment>
+  </data>
+  <data name="10:Description,msdyn_msdyn_incidenttype_incident_IncidentType" xml:space="preserve">
+    <value />
+    <comment>Incident Description for EntityRelationship 'msdyn_msdyn_incidenttype_incident_IncidentType'</comment>
+  </data>
+  <data name="15062:Description,DefaultPublisherdevtestspiralitnew10000" xml:space="preserve">
+    <value />
+    <comment> 'DefaultPublisherdevtestspiralit' : Description for Solution Publisher</comment>
+  </data>
+  <data name="15062:Description,DevOps365Test" xml:space="preserve">
+    <value />
+    <comment> 'DevOps365Test' : Description for Solution</comment>
+  </data>
+  <data name="15062:LocalizedName,DefaultPublisherdevtestspiralitnew10000" xml:space="preserve">
+    <value />
+    <comment> 'DefaultPublisherdevtestspiralit' : LocalizedName for Solution Publisher</comment>
+  </data>
+  <data name="15062:LocalizedName,DevOps365Test" xml:space="preserve">
+    <value />
+    <comment> 'DevOps365Test' : LocalizedName for Solution</comment>
+  </data>
+  <data name="1:Description,Case{4a63c8d1-6c1e-48ec-9db4-3e6c7155334c}" xml:space="preserve">
+    <value />
+    <comment>'Case' : Description for systemform in Entity FormXml ID: '{4a63c8d1-6c1e-48ec-9db4-3e6c7155334c}'</comment>
+  </data>
+  <data name="1:Description,Case{8e10b902-0b3e-441c-8b12-88e6c1793848}" xml:space="preserve">
+    <value />
+    <comment>'Case' : Description for systemform in Entity FormXml ID: '{8e10b902-0b3e-441c-8b12-88e6c1793848}'</comment>
+  </data>
+  <data name="1:Description,Case{8ed8553f-b520-4fe3-b2e7-59eef8301486}" xml:space="preserve">
+    <value />
+    <comment>'Case' : Description for systemform in Entity FormXml ID: '{8ed8553f-b520-4fe3-b2e7-59eef8301486}'</comment>
+  </data>
+  <data name="1:Description,Case{915f6055-2e07-4276-ae08-2b96c8d02c57}" xml:space="preserve">
+    <value />
+    <comment>'Case' : Description for systemform in Entity FormXml ID: '{915f6055-2e07-4276-ae08-2b96c8d02c57}'</comment>
+  </data>
+  <data name="1:Description,Case{e8f97346-4f58-47de-964f-cbd64a52011b}" xml:space="preserve">
+    <value />
+    <comment>'Case' : Description for systemform in Entity FormXml ID: '{e8f97346-4f58-47de-964f-cbd64a52011b}'</comment>
+  </data>
+  <data name="1:Description,Case{f658c846-f74c-459b-b591-b97558958106}" xml:space="preserve">
+    <value />
+    <comment>'Case' : Description for systemform in Entity FormXml ID: '{f658c846-f74c-459b-b591-b97558958106}'</comment>
+  </data>
+  <data name="1:Description,IncidentCaseOriginCode" xml:space="preserve">
+    <value />
+    <comment>'Incident' : Description for Attribute 'CaseOriginCode' on Entity</comment>
+  </data>
+  <data name="1:Description,IncidentEntityImage" xml:space="preserve">
+    <value />
+    <comment>'Incident' : Description for Attribute 'EntityImage' on Entity</comment>
+  </data>
+  <data name="1:Description,Incidentnew_incident_new_vip" xml:space="preserve">
+    <value />
+    <comment>'Incident' : Description for OptionSet 'new_incident_new_vip' on Entity</comment>
+  </data>
+  <data name="1:Description,Incidentnew_vip" xml:space="preserve">
+    <value />
+    <comment>'Incident' : Description for Attribute 'new_vip' on Entity</comment>
+  </data>
+  <data name="1:displayname,IncidentCaseOriginCode" xml:space="preserve">
+    <value />
+    <comment>'Incident' : displayname for Attribute 'CaseOriginCode' on Entity</comment>
+  </data>
+  <data name="1:displayname,IncidentEntityImage" xml:space="preserve">
+    <value />
+    <comment>'Incident' : displayname for Attribute 'EntityImage' on Entity</comment>
+  </data>
+  <data name="1:displayname,Incidentnew_incident_new_vip" xml:space="preserve">
+    <value />
+    <comment>'Incident' : displayname for OptionSet 'new_incident_new_vip' on Entity</comment>
+  </data>
+  <data name="1:displayname,Incidentnew_vip" xml:space="preserve">
+    <value />
+    <comment>'Incident' : displayname for Attribute 'new_vip' on Entity</comment>
+  </data>
+  <data name="1:label,Case{00ca23ab-800f-4c81-b265-6623a9821bfe}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for cell in Entity FormXml ID: '{00ca23ab-800f-4c81-b265-6623a9821bfe}'</comment>
+  </data>
+  <data name="1:label,Case{02ee4497-88ad-0943-edb0-d08b60903ebb}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for section in Entity FormXml ID: '{02ee4497-88ad-0943-edb0-d08b60903ebb}'</comment>
+  </data>
+  <data name="1:label,Case{052a7135-3315-4fd9-91b6-8355cef8bb09}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for section in Entity FormXml ID: '{052a7135-3315-4fd9-91b6-8355cef8bb09}'</comment>
+  </data>
+  <data name="1:label,Case{05620F33-1720-4545-90C3-F2AFFF4611AD}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for cell in Entity FormXml ID: '{05620F33-1720-4545-90C3-F2AFFF4611AD}'</comment>
+  </data>
+  <data name="1:label,Case{05ad2293-47dc-4119-a655-4a317a1a7838}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for cell in Entity FormXml ID: '{05ad2293-47dc-4119-a655-4a317a1a7838}'</comment>
+  </data>
+  <data name="1:label,Case{0653f522-18a7-41d4-a1ae-56164cb8b300}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for cell in Entity FormXml ID: '{0653f522-18a7-41d4-a1ae-56164cb8b300}'</comment>
+  </data>
+  <data name="1:label,Case{06a2992a-9cc9-41a5-8f37-d2b2214fdde1}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for tab in Entity FormXml ID: '{06a2992a-9cc9-41a5-8f37-d2b2214fdde1}'</comment>
+  </data>
+  <data name="1:label,Case{06f2337b-0ba8-4993-8da8-dd0cec675ca7}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for cell in Entity FormXml ID: '{06f2337b-0ba8-4993-8da8-dd0cec675ca7}'</comment>
+  </data>
+  <data name="1:label,Case{07de2e7a-2f94-472e-bbab-f41a8ae8b7b9}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for section in Entity FormXml ID: '{07de2e7a-2f94-472e-bbab-f41a8ae8b7b9}'</comment>
+  </data>
+  <data name="1:label,Case{0801a6d1-caee-4a20-b499-775641cf9b95}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for cell in Entity FormXml ID: '{0801a6d1-caee-4a20-b499-775641cf9b95}'</comment>
+  </data>
+  <data name="1:label,Case{08077e93-1293-40b4-8b48-b8d5dba7b2a9}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for cell in Entity FormXml ID: '{08077e93-1293-40b4-8b48-b8d5dba7b2a9}'</comment>
+  </data>
+  <data name="1:label,Case{09c5bc1b-4992-4b9b-9077-b6cc1c73fbb3}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for cell in Entity FormXml ID: '{09c5bc1b-4992-4b9b-9077-b6cc1c73fbb3}'</comment>
+  </data>
+  <data name="1:label,Case{09d03c8d-5a6b-4a94-b7d9-cfa1b5364015}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for section in Entity FormXml ID: '{09d03c8d-5a6b-4a94-b7d9-cfa1b5364015}'</comment>
+  </data>
+  <data name="1:label,Case{0ac33529-ebdb-4c86-981a-2706eb8e4e30}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for cell in Entity FormXml ID: '{0ac33529-ebdb-4c86-981a-2706eb8e4e30}'</comment>
+  </data>
+  <data name="1:label,Case{0b018f6d-2937-4c0b-93f0-ae5f02280e2e}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for cell in Entity FormXml ID: '{0b018f6d-2937-4c0b-93f0-ae5f02280e2e}'</comment>
+  </data>
+  <data name="1:label,Case{0b03f8b1-d0f6-40ed-9593-ad476c8da3c7}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for cell in Entity FormXml ID: '{0b03f8b1-d0f6-40ed-9593-ad476c8da3c7}'</comment>
+  </data>
+  <data name="1:label,Case{0bf39219-671e-4e7f-82ca-c50f52ecae89}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for cell in Entity FormXml ID: '{0bf39219-671e-4e7f-82ca-c50f52ecae89}'</comment>
+  </data>
+  <data name="1:label,Case{0f838c32-f33d-4795-a3a9-7e254a0b113d}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for tab in Entity FormXml ID: '{0f838c32-f33d-4795-a3a9-7e254a0b113d}'</comment>
+  </data>
+  <data name="1:label,Case{0fc341d7-3c79-45ae-b943-b588c75e54c2}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for cell in Entity FormXml ID: '{0fc341d7-3c79-45ae-b943-b588c75e54c2}'</comment>
+  </data>
+  <data name="1:label,Case{10B6F366-35D9-4213-A88E-0B1B518E29DD}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for cell in Entity FormXml ID: '{10B6F366-35D9-4213-A88E-0B1B518E29DD}'</comment>
+  </data>
+  <data name="1:label,Case{10e3f3db-f7e4-42de-99b3-847ceb14d783}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for cell in Entity FormXml ID: '{10e3f3db-f7e4-42de-99b3-847ceb14d783}'</comment>
+  </data>
+  <data name="1:label,Case{13650be6-418b-4440-949a-2179f20ed339}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for cell in Entity FormXml ID: '{13650be6-418b-4440-949a-2179f20ed339}'</comment>
+  </data>
+  <data name="1:label,Case{1432B3C0-3FE6-4631-B0D0-5A63F42B1688}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for cell in Entity FormXml ID: '{1432B3C0-3FE6-4631-B0D0-5A63F42B1688}'</comment>
+  </data>
+  <data name="1:label,Case{14c5a497-9363-a9a4-774b-79897158e96d}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for cell in Entity FormXml ID: '{14c5a497-9363-a9a4-774b-79897158e96d}'</comment>
+  </data>
+  <data name="1:label,Case{14ccc597-87b9-4758-9c5c-948bdac72713}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for cell in Entity FormXml ID: '{14ccc597-87b9-4758-9c5c-948bdac72713}'</comment>
+  </data>
+  <data name="1:label,Case{158b372d-5af9-40c7-b9fb-d6e4b43b2f62}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for cell in Entity FormXml ID: '{158b372d-5af9-40c7-b9fb-d6e4b43b2f62}'</comment>
+  </data>
+  <data name="1:label,Case{16857335-f376-4a20-92ce-6b91a46c5a5c}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for section in Entity FormXml ID: '{16857335-f376-4a20-92ce-6b91a46c5a5c}'</comment>
+  </data>
+  <data name="1:label,Case{17fb3051-af36-44fb-bac8-594dabd7db33}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for section in Entity FormXml ID: '{17fb3051-af36-44fb-bac8-594dabd7db33}'</comment>
+  </data>
+  <data name="1:label,Case{1d840db5-11ab-4b32-928e-92855404bd66}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for tab in Entity FormXml ID: '{1d840db5-11ab-4b32-928e-92855404bd66}'</comment>
+  </data>
+  <data name="1:label,Case{2187e4fb-5940-465a-9a37-3ac907a64e5b}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for section in Entity FormXml ID: '{2187e4fb-5940-465a-9a37-3ac907a64e5b}'</comment>
+  </data>
+  <data name="1:label,Case{21b8b3b2-41b5-02a6-26cd-7d0053394998}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for cell in Entity FormXml ID: '{21b8b3b2-41b5-02a6-26cd-7d0053394998}'</comment>
+  </data>
+  <data name="1:label,Case{2335806E-F713-402F-A9BD-6BEEEC6B8645}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for section in Entity FormXml ID: '{2335806E-F713-402F-A9BD-6BEEEC6B8645}'</comment>
+  </data>
+  <data name="1:label,Case{241aadbb-4080-46b6-8e5f-ea028ede7c61}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for cell in Entity FormXml ID: '{241aadbb-4080-46b6-8e5f-ea028ede7c61}'</comment>
+  </data>
+  <data name="1:label,Case{2447c11b-4457-4b6e-8672-2e2ef5f65a7a}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for cell in Entity FormXml ID: '{2447c11b-4457-4b6e-8672-2e2ef5f65a7a}'</comment>
+  </data>
+  <data name="1:label,Case{26940645-ec02-4f99-bbcf-c4cc33a2be4c}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for cell in Entity FormXml ID: '{26940645-ec02-4f99-bbcf-c4cc33a2be4c}'</comment>
+  </data>
+  <data name="1:label,Case{2973ce06-0486-461f-9381-48a174703d01}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for cell in Entity FormXml ID: '{2973ce06-0486-461f-9381-48a174703d01}'</comment>
+  </data>
+  <data name="1:label,Case{29840d59-02b1-4990-b675-5bf0c22b49f4}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for section in Entity FormXml ID: '{29840d59-02b1-4990-b675-5bf0c22b49f4}'</comment>
+  </data>
+  <data name="1:label,Case{2a4476ce-1954-4a74-be83-3fbccc4b50ec}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for cell in Entity FormXml ID: '{2a4476ce-1954-4a74-be83-3fbccc4b50ec}'</comment>
+  </data>
+  <data name="1:label,Case{2D8C61A2-7CFC-4DD8-A8AF-2CB82760E559}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for cell in Entity FormXml ID: '{2D8C61A2-7CFC-4DD8-A8AF-2CB82760E559}'</comment>
+  </data>
+  <data name="1:label,Case{347988d6-75a0-4464-bf4c-098e348c1a0d}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for cell in Entity FormXml ID: '{347988d6-75a0-4464-bf4c-098e348c1a0d}'</comment>
+  </data>
+  <data name="1:label,Case{34d53885-5bbb-4711-a9ab-1b55928fd020}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for section in Entity FormXml ID: '{34d53885-5bbb-4711-a9ab-1b55928fd020}'</comment>
+  </data>
+  <data name="1:label,Case{35adec15-e9ea-40b2-8890-ce08136ffed1}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for cell in Entity FormXml ID: '{35adec15-e9ea-40b2-8890-ce08136ffed1}'</comment>
+  </data>
+  <data name="1:label,Case{363a5e29-8bfe-492f-8a8f-d0e1c114f2f9}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for cell in Entity FormXml ID: '{363a5e29-8bfe-492f-8a8f-d0e1c114f2f9}'</comment>
+  </data>
+  <data name="1:label,Case{3688e3b6-2b2f-4b77-8b16-a1fd8063b18b}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for cell in Entity FormXml ID: '{3688e3b6-2b2f-4b77-8b16-a1fd8063b18b}'</comment>
+  </data>
+  <data name="1:label,Case{37FF1494-77A5-462C-B556-737BD015C71F}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for cell in Entity FormXml ID: '{37FF1494-77A5-462C-B556-737BD015C71F}'</comment>
+  </data>
+  <data name="1:label,Case{38d5d5d5-01c8-0262-623d-6c011ac6e986}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for cell in Entity FormXml ID: '{38d5d5d5-01c8-0262-623d-6c011ac6e986}'</comment>
+  </data>
+  <data name="1:label,Case{39271ebd-9a25-3397-244a-6e8d6254a935}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for cell in Entity FormXml ID: '{39271ebd-9a25-3397-244a-6e8d6254a935}'</comment>
+  </data>
+  <data name="1:label,Case{39ba3269-5e29-49ff-9f59-a0c0e26c3ca7}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for tab in Entity FormXml ID: '{39ba3269-5e29-49ff-9f59-a0c0e26c3ca7}'</comment>
+  </data>
+  <data name="1:label,Case{3e828306-545b-20c9-7aae-73cb466b0b00}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for cell in Entity FormXml ID: '{3e828306-545b-20c9-7aae-73cb466b0b00}'</comment>
+  </data>
+  <data name="1:label,Case{3f6d4e94-f4db-47b7-9b9b-7a908adfe5b6}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for cell in Entity FormXml ID: '{3f6d4e94-f4db-47b7-9b9b-7a908adfe5b6}'</comment>
+  </data>
+  <data name="1:label,Case{3fbc9cb7-5064-4cdc-893f-3b123b910837}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for cell in Entity FormXml ID: '{3fbc9cb7-5064-4cdc-893f-3b123b910837}'</comment>
+  </data>
+  <data name="1:label,Case{40ed2015-5127-461f-8cda-8f2cc0043cba}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for cell in Entity FormXml ID: '{40ed2015-5127-461f-8cda-8f2cc0043cba}'</comment>
+  </data>
+  <data name="1:label,Case{41f72320-4f3f-4dd8-a8a3-8201797cee2e}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for cell in Entity FormXml ID: '{41f72320-4f3f-4dd8-a8a3-8201797cee2e}'</comment>
+  </data>
+  <data name="1:label,Case{420032d6-21a9-4ca2-95f9-dcf3b9684d78}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for cell in Entity FormXml ID: '{420032d6-21a9-4ca2-95f9-dcf3b9684d78}'</comment>
+  </data>
+  <data name="1:label,Case{423a4d0c-b9d2-492f-b070-e446e4ea16c7}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for cell in Entity FormXml ID: '{423a4d0c-b9d2-492f-b070-e446e4ea16c7}'</comment>
+  </data>
+  <data name="1:label,Case{43166768-2d51-5511-2e28-1a2605044629}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for cell in Entity FormXml ID: '{43166768-2d51-5511-2e28-1a2605044629}'</comment>
+  </data>
+  <data name="1:label,Case{4370d872-bec2-517c-0eea-a944b1b343d3}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for section in Entity FormXml ID: '{4370d872-bec2-517c-0eea-a944b1b343d3}'</comment>
+  </data>
+  <data name="1:label,Case{44424fb9-0507-4f9f-b42f-3d76f7c4d30d}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for cell in Entity FormXml ID: '{44424fb9-0507-4f9f-b42f-3d76f7c4d30d}'</comment>
+  </data>
+  <data name="1:label,Case{45b0b358-578d-4b16-bbd3-981350b17338}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for cell in Entity FormXml ID: '{45b0b358-578d-4b16-bbd3-981350b17338}'</comment>
+  </data>
+  <data name="1:label,Case{468927ba-238f-4199-847d-20c2544e18a9}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for section in Entity FormXml ID: '{468927ba-238f-4199-847d-20c2544e18a9}'</comment>
+  </data>
+  <data name="1:label,Case{4820D236-B50D-4F02-876A-889F60B86D9B}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for cell in Entity FormXml ID: '{4820D236-B50D-4F02-876A-889F60B86D9B}'</comment>
+  </data>
+  <data name="1:label,Case{4887a827-87a9-47ac-8cff-84aa1336649d}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for cell in Entity FormXml ID: '{4887a827-87a9-47ac-8cff-84aa1336649d}'</comment>
+  </data>
+  <data name="1:label,Case{495d18ec-aaba-483d-8684-822969df46b1}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for section in Entity FormXml ID: '{495d18ec-aaba-483d-8684-822969df46b1}'</comment>
+  </data>
+  <data name="1:label,Case{4a23dbed-e8cc-4a80-b63c-91e40968a6ec}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for cell in Entity FormXml ID: '{4a23dbed-e8cc-4a80-b63c-91e40968a6ec}'</comment>
+  </data>
+  <data name="1:label,Case{4a4dca34-82e7-466e-a629-8fdffd0729c1}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for section in Entity FormXml ID: '{4a4dca34-82e7-466e-a629-8fdffd0729c1}'</comment>
+  </data>
+  <data name="1:label,Case{4c30f9aa-b58f-4d5b-8027-85dc7179cec1}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for section in Entity FormXml ID: '{4c30f9aa-b58f-4d5b-8027-85dc7179cec1}'</comment>
+  </data>
+  <data name="1:label,Case{4e5d56cd-eb6a-4ec5-9ac2-499a90f87cf5}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for cell in Entity FormXml ID: '{4e5d56cd-eb6a-4ec5-9ac2-499a90f87cf5}'</comment>
+  </data>
+  <data name="1:label,Case{4e749814-cad5-4f86-b462-dccd684f976c}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for cell in Entity FormXml ID: '{4e749814-cad5-4f86-b462-dccd684f976c}'</comment>
+  </data>
+  <data name="1:label,Case{4f1cbb62-1166-4db3-a0d7-1844cea74945}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for section in Entity FormXml ID: '{4f1cbb62-1166-4db3-a0d7-1844cea74945}'</comment>
+  </data>
+  <data name="1:label,Case{4f4a616e-1065-492f-a7fa-f391e7351957}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for tab in Entity FormXml ID: '{4f4a616e-1065-492f-a7fa-f391e7351957}'</comment>
+  </data>
+  <data name="1:label,Case{504fce47-f175-41d7-a747-27a0c9963acc}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for cell in Entity FormXml ID: '{504fce47-f175-41d7-a747-27a0c9963acc}'</comment>
+  </data>
+  <data name="1:label,Case{505a8e99-ea95-d3b2-89c5-e022c7b31071}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for section in Entity FormXml ID: '{505a8e99-ea95-d3b2-89c5-e022c7b31071}'</comment>
+  </data>
+  <data name="1:label,Case{5177e789-1080-4c93-809a-873db756ae90}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for section in Entity FormXml ID: '{5177e789-1080-4c93-809a-873db756ae90}'</comment>
+  </data>
+  <data name="1:label,Case{51999b68-4b4c-439b-bb51-1b49edae03a9}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for section in Entity FormXml ID: '{51999b68-4b4c-439b-bb51-1b49edae03a9}'</comment>
+  </data>
+  <data name="1:label,Case{52a189d6-1230-4f1d-aa6c-9909b269c2da}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for cell in Entity FormXml ID: '{52a189d6-1230-4f1d-aa6c-9909b269c2da}'</comment>
+  </data>
+  <data name="1:label,Case{5319ba7d-657b-3c19-c5c2-8b9b9451ce60}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for cell in Entity FormXml ID: '{5319ba7d-657b-3c19-c5c2-8b9b9451ce60}'</comment>
+  </data>
+  <data name="1:label,Case{53dd311c-6ec7-4cde-b299-d39fe21c3dcf}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for cell in Entity FormXml ID: '{53dd311c-6ec7-4cde-b299-d39fe21c3dcf}'</comment>
+  </data>
+  <data name="1:label,Case{53e72326-a866-46f8-b5a5-635836f92145}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for section in Entity FormXml ID: '{53e72326-a866-46f8-b5a5-635836f92145}'</comment>
+  </data>
+  <data name="1:label,Case{54948b68-684d-4090-9a69-3ba60f2071c8}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for cell in Entity FormXml ID: '{54948b68-684d-4090-9a69-3ba60f2071c8}'</comment>
+  </data>
+  <data name="1:label,Case{55761671-e9db-cc59-34c2-17c4c735a522}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for cell in Entity FormXml ID: '{55761671-e9db-cc59-34c2-17c4c735a522}'</comment>
+  </data>
+  <data name="1:label,Case{564b9a08-4626-46f5-8bd8-3d31e17a8873}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for tab in Entity FormXml ID: '{564b9a08-4626-46f5-8bd8-3d31e17a8873}'</comment>
+  </data>
+  <data name="1:label,Case{56868698-240e-5b49-3ed3-487c78cab12b}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for tab in Entity FormXml ID: '{56868698-240e-5b49-3ed3-487c78cab12b}'</comment>
+  </data>
+  <data name="1:label,Case{5695eced-80f3-4983-9bbd-346db51478d1}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for tab in Entity FormXml ID: '{5695eced-80f3-4983-9bbd-346db51478d1}'</comment>
+  </data>
+  <data name="1:label,Case{573b6d21-4cc3-20c7-00c0-97160b24567a}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for cell in Entity FormXml ID: '{573b6d21-4cc3-20c7-00c0-97160b24567a}'</comment>
+  </data>
+  <data name="1:label,Case{58a799a6-a483-30da-d32d-12c15ba0daa0}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for cell in Entity FormXml ID: '{58a799a6-a483-30da-d32d-12c15ba0daa0}'</comment>
+  </data>
+  <data name="1:label,Case{59114a02-2c0a-6353-4e2c-1a6727c64ed1}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for cell in Entity FormXml ID: '{59114a02-2c0a-6353-4e2c-1a6727c64ed1}'</comment>
+  </data>
+  <data name="1:label,Case{59fe9aa7-81a3-41f7-8007-c3d865a30ab9}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for section in Entity FormXml ID: '{59fe9aa7-81a3-41f7-8007-c3d865a30ab9}'</comment>
+  </data>
+  <data name="1:label,Case{5b41e0a6-d4da-4ee5-871f-373f2b55109e}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for tab in Entity FormXml ID: '{5b41e0a6-d4da-4ee5-871f-373f2b55109e}'</comment>
+  </data>
+  <data name="1:label,Case{5b9659ae-d657-4886-98a8-4b87bd53e651}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for section in Entity FormXml ID: '{5b9659ae-d657-4886-98a8-4b87bd53e651}'</comment>
+  </data>
+  <data name="1:label,Case{5d2b7d89-424e-4b9f-ad7f-76aae92eea18}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for section in Entity FormXml ID: '{5d2b7d89-424e-4b9f-ad7f-76aae92eea18}'</comment>
+  </data>
+  <data name="1:label,Case{5da7be3a-8fac-486b-aa24-c8fb1092cda3}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for cell in Entity FormXml ID: '{5da7be3a-8fac-486b-aa24-c8fb1092cda3}'</comment>
+  </data>
+  <data name="1:label,Case{5e8cbb76-6223-4e32-b8f9-b460ad3b0c88}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for section in Entity FormXml ID: '{5e8cbb76-6223-4e32-b8f9-b460ad3b0c88}'</comment>
+  </data>
+  <data name="1:label,Case{5fe36484-a978-4069-b390-fe9400809aaa}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for cell in Entity FormXml ID: '{5fe36484-a978-4069-b390-fe9400809aaa}'</comment>
+  </data>
+  <data name="1:label,Case{60d4e9e9-a10e-45e6-b6d5-5a36776cb72e}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for section in Entity FormXml ID: '{60d4e9e9-a10e-45e6-b6d5-5a36776cb72e}'</comment>
+  </data>
+  <data name="1:label,Case{6145cb9a-726e-0a62-aa78-8dcaa6d064ab}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for cell in Entity FormXml ID: '{6145cb9a-726e-0a62-aa78-8dcaa6d064ab}'</comment>
+  </data>
+  <data name="1:label,Case{622a5065-a78e-4caf-ad1a-9ccafe579e93}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for cell in Entity FormXml ID: '{622a5065-a78e-4caf-ad1a-9ccafe579e93}'</comment>
+  </data>
+  <data name="1:label,Case{6420b8f0-0814-4ec4-8305-f32e6160d1f4}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for cell in Entity FormXml ID: '{6420b8f0-0814-4ec4-8305-f32e6160d1f4}'</comment>
+  </data>
+  <data name="1:label,Case{649db1b7-7281-6655-cc26-3ace93147ecc}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for cell in Entity FormXml ID: '{649db1b7-7281-6655-cc26-3ace93147ecc}'</comment>
+  </data>
+  <data name="1:label,Case{6539ac26-1798-4e6a-af34-c98a254b2b5f}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for tab in Entity FormXml ID: '{6539ac26-1798-4e6a-af34-c98a254b2b5f}'</comment>
+  </data>
+  <data name="1:label,Case{657f908a-233e-4ac7-8688-9b659d8ba73a}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for cell in Entity FormXml ID: '{657f908a-233e-4ac7-8688-9b659d8ba73a}'</comment>
+  </data>
+  <data name="1:label,Case{66807859-dda0-40bb-899d-8824296234b6}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for cell in Entity FormXml ID: '{66807859-dda0-40bb-899d-8824296234b6}'</comment>
+  </data>
+  <data name="1:label,Case{67c9b29b-c1b2-aa8e-6b95-5d295b76e224}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for cell in Entity FormXml ID: '{67c9b29b-c1b2-aa8e-6b95-5d295b76e224}'</comment>
+  </data>
+  <data name="1:label,Case{6b0f730e-8289-4730-b116-74ebb2465d94}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for cell in Entity FormXml ID: '{6b0f730e-8289-4730-b116-74ebb2465d94}'</comment>
+  </data>
+  <data name="1:label,Case{6ef467d9-a025-420c-bb36-9b2d4a9642d9}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for section in Entity FormXml ID: '{6ef467d9-a025-420c-bb36-9b2d4a9642d9}'</comment>
+  </data>
+  <data name="1:label,Case{6faa07f6-4a02-4f48-8c3c-91e160884aa6}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for cell in Entity FormXml ID: '{6faa07f6-4a02-4f48-8c3c-91e160884aa6}'</comment>
+  </data>
+  <data name="1:label,Case{70a83419-91af-4c8e-b39e-42bf8fa286f3}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for tab in Entity FormXml ID: '{70a83419-91af-4c8e-b39e-42bf8fa286f3}'</comment>
+  </data>
+  <data name="1:label,Case{70cc3529-ab81-650b-3bd0-3147ba77667d}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for cell in Entity FormXml ID: '{70cc3529-ab81-650b-3bd0-3147ba77667d}'</comment>
+  </data>
+  <data name="1:label,Case{7147a561-6867-49c1-8914-acac76cb6bbf}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for section in Entity FormXml ID: '{7147a561-6867-49c1-8914-acac76cb6bbf}'</comment>
+  </data>
+  <data name="1:label,Case{7151297d-9a30-85a9-0d06-30c10b8e8b8d}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for section in Entity FormXml ID: '{7151297d-9a30-85a9-0d06-30c10b8e8b8d}'</comment>
+  </data>
+  <data name="1:label,Case{7237401a-07fb-424c-a404-1b4833990d78}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for cell in Entity FormXml ID: '{7237401a-07fb-424c-a404-1b4833990d78}'</comment>
+  </data>
+  <data name="1:label,Case{75b38171-01cc-44fd-ab15-503ba1fdd6b0}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for section in Entity FormXml ID: '{75b38171-01cc-44fd-ab15-503ba1fdd6b0}'</comment>
+  </data>
+  <data name="1:label,Case{75bc5581-dde6-d9e8-a877-5a28e96246ee}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for cell in Entity FormXml ID: '{75bc5581-dde6-d9e8-a877-5a28e96246ee}'</comment>
+  </data>
+  <data name="1:label,Case{76d17ce6-ce11-da3c-aeee-e2886e506221}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for cell in Entity FormXml ID: '{76d17ce6-ce11-da3c-aeee-e2886e506221}'</comment>
+  </data>
+  <data name="1:label,Case{7aebc69c-c3bb-4489-a1f2-9faf3c8b363c}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for cell in Entity FormXml ID: '{7aebc69c-c3bb-4489-a1f2-9faf3c8b363c}'</comment>
+  </data>
+  <data name="1:label,Case{7d716e7b-bccd-4984-afce-02c47a9753c4}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for cell in Entity FormXml ID: '{7d716e7b-bccd-4984-afce-02c47a9753c4}'</comment>
+  </data>
+  <data name="1:label,Case{7DD3C4A6-E482-4823-A266-5395DD6AE9BB}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for cell in Entity FormXml ID: '{7DD3C4A6-E482-4823-A266-5395DD6AE9BB}'</comment>
+  </data>
+  <data name="1:label,Case{7de777d6-09a9-41ab-81c1-160fa8b43f0f}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for section in Entity FormXml ID: '{7de777d6-09a9-41ab-81c1-160fa8b43f0f}'</comment>
+  </data>
+  <data name="1:label,Case{7e633306-b074-4965-4979-24ab494b1b48}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for cell in Entity FormXml ID: '{7e633306-b074-4965-4979-24ab494b1b48}'</comment>
+  </data>
+  <data name="1:label,Case{7e77552c-352b-42c5-bfba-f64896392b11}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for cell in Entity FormXml ID: '{7e77552c-352b-42c5-bfba-f64896392b11}'</comment>
+  </data>
+  <data name="1:label,Case{7ebd9944-2069-49fc-af94-cbdc27da64ea}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for cell in Entity FormXml ID: '{7ebd9944-2069-49fc-af94-cbdc27da64ea}'</comment>
+  </data>
+  <data name="1:label,Case{7f21a1bc-48b1-4423-860b-0efa5cfa7712}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for cell in Entity FormXml ID: '{7f21a1bc-48b1-4423-860b-0efa5cfa7712}'</comment>
+  </data>
+  <data name="1:label,Case{820e1ad0-5b40-4d15-9746-32f10735edde}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for tab in Entity FormXml ID: '{820e1ad0-5b40-4d15-9746-32f10735edde}'</comment>
+  </data>
+  <data name="1:label,Case{82172fc9-a003-4203-87e6-73c8808ae942}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for cell in Entity FormXml ID: '{82172fc9-a003-4203-87e6-73c8808ae942}'</comment>
+  </data>
+  <data name="1:label,Case{82bed4a4-41e1-4c3a-ac46-251fdf691b01}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for cell in Entity FormXml ID: '{82bed4a4-41e1-4c3a-ac46-251fdf691b01}'</comment>
+  </data>
+  <data name="1:label,Case{834b60db-2bb8-c04e-bcc5-e6de231e214c}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for cell in Entity FormXml ID: '{834b60db-2bb8-c04e-bcc5-e6de231e214c}'</comment>
+  </data>
+  <data name="1:label,Case{84b93c76-6856-4ab9-ad6a-173c86e9685e}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for cell in Entity FormXml ID: '{84b93c76-6856-4ab9-ad6a-173c86e9685e}'</comment>
+  </data>
+  <data name="1:label,Case{84f29dbc-6013-4ba2-9666-64b471d7459f}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for section in Entity FormXml ID: '{84f29dbc-6013-4ba2-9666-64b471d7459f}'</comment>
+  </data>
+  <data name="1:label,Case{87ac2d12-dcd9-0e2a-6176-7415972d72e9}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for cell in Entity FormXml ID: '{87ac2d12-dcd9-0e2a-6176-7415972d72e9}'</comment>
+  </data>
+  <data name="1:label,Case{88bbc656-3d87-18da-0ab5-caa2cb603e27}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for section in Entity FormXml ID: '{88bbc656-3d87-18da-0ab5-caa2cb603e27}'</comment>
+  </data>
+  <data name="1:label,Case{92b47164-4655-22e5-cb13-e36d38bd4d10}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for cell in Entity FormXml ID: '{92b47164-4655-22e5-cb13-e36d38bd4d10}'</comment>
+  </data>
+  <data name="1:label,Case{93245917-998a-b270-61ed-c18ed879c235}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for cell in Entity FormXml ID: '{93245917-998a-b270-61ed-c18ed879c235}'</comment>
+  </data>
+  <data name="1:label,Case{93e782be-2622-2023-3416-20418ea9ad2a}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for cell in Entity FormXml ID: '{93e782be-2622-2023-3416-20418ea9ad2a}'</comment>
+  </data>
+  <data name="1:label,Case{9404c284-21bf-4194-a6d7-cdc9291b9f19}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for section in Entity FormXml ID: '{9404c284-21bf-4194-a6d7-cdc9291b9f19}'</comment>
+  </data>
+  <data name="1:label,Case{9500078b-c9a0-4472-915f-22682c920ced}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for section in Entity FormXml ID: '{9500078b-c9a0-4472-915f-22682c920ced}'</comment>
+  </data>
+  <data name="1:label,Case{952B0290-FC73-4228-BF24-2892A772A1EA}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for section in Entity FormXml ID: '{952B0290-FC73-4228-BF24-2892A772A1EA}'</comment>
+  </data>
+  <data name="1:label,Case{959273e2-e600-3b18-6572-763b94414e67}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for cell in Entity FormXml ID: '{959273e2-e600-3b18-6572-763b94414e67}'</comment>
+  </data>
+  <data name="1:label,Case{96c8d2c2-6062-4d29-bf28-53d5d13b200c}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for cell in Entity FormXml ID: '{96c8d2c2-6062-4d29-bf28-53d5d13b200c}'</comment>
+  </data>
+  <data name="1:label,Case{9b3244ac-06c7-2599-ac11-2980a5b35dd2}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for cell in Entity FormXml ID: '{9b3244ac-06c7-2599-ac11-2980a5b35dd2}'</comment>
+  </data>
+  <data name="1:label,Case{9bbc079e-f433-4759-be2a-756fec3c0ee4}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for section in Entity FormXml ID: '{9bbc079e-f433-4759-be2a-756fec3c0ee4}'</comment>
+  </data>
+  <data name="1:label,Case{9ed95127-7c3c-9c3e-a424-07d8144a246d}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for cell in Entity FormXml ID: '{9ed95127-7c3c-9c3e-a424-07d8144a246d}'</comment>
+  </data>
+  <data name="1:label,Case{a0d5255c-e331-4297-a8f8-805e03921086}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for cell in Entity FormXml ID: '{a0d5255c-e331-4297-a8f8-805e03921086}'</comment>
+  </data>
+  <data name="1:label,Case{a331207a-4a62-a255-9ee0-547d85e84695}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for cell in Entity FormXml ID: '{a331207a-4a62-a255-9ee0-547d85e84695}'</comment>
+  </data>
+  <data name="1:label,Case{a4424014-2410-4968-97c8-fcf40cf6ac0a}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for cell in Entity FormXml ID: '{a4424014-2410-4968-97c8-fcf40cf6ac0a}'</comment>
+  </data>
+  <data name="1:label,Case{a5be55d1-d0e1-d9e8-a877-5a28e00006ee}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for cell in Entity FormXml ID: '{a5be55d1-d0e1-d9e8-a877-5a28e00006ee}'</comment>
+  </data>
+  <data name="1:label,Case{a70611c1-1894-6240-3da8-632c87b3e047}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for cell in Entity FormXml ID: '{a70611c1-1894-6240-3da8-632c87b3e047}'</comment>
+  </data>
+  <data name="1:label,Case{a77667af-f96c-457d-814d-f2f9806cd7f1}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for cell in Entity FormXml ID: '{a77667af-f96c-457d-814d-f2f9806cd7f1}'</comment>
+  </data>
+  <data name="1:label,Case{a7cf9164-8e2c-4a75-a539-94ed1b96f391}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for tab in Entity FormXml ID: '{a7cf9164-8e2c-4a75-a539-94ed1b96f391}'</comment>
+  </data>
+  <data name="1:label,Case{a83156c9-4806-478f-be16-b43a65be5c3a}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for cell in Entity FormXml ID: '{a83156c9-4806-478f-be16-b43a65be5c3a}'</comment>
+  </data>
+  <data name="1:label,Case{a88d8391-41cc-d07e-10b2-ebc963b227c1}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for cell in Entity FormXml ID: '{a88d8391-41cc-d07e-10b2-ebc963b227c1}'</comment>
+  </data>
+  <data name="1:label,Case{a91a4443-7b1c-419c-9a3c-5ddb40ad65e6}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for cell in Entity FormXml ID: '{a91a4443-7b1c-419c-9a3c-5ddb40ad65e6}'</comment>
+  </data>
+  <data name="1:label,Case{a9859c32-0cdc-41b5-8e7e-3eb173cab4a8}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for cell in Entity FormXml ID: '{a9859c32-0cdc-41b5-8e7e-3eb173cab4a8}'</comment>
+  </data>
+  <data name="1:label,Case{ac0addcc-a626-6c98-40ee-b11edac36204}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for section in Entity FormXml ID: '{ac0addcc-a626-6c98-40ee-b11edac36204}'</comment>
+  </data>
+  <data name="1:label,Case{ac7aa3eb-be29-a35c-17e1-3ec713ee2cc6}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for cell in Entity FormXml ID: '{ac7aa3eb-be29-a35c-17e1-3ec713ee2cc6}'</comment>
+  </data>
+  <data name="1:label,Case{acb2c742-73f1-4545-970a-870272bf1eb9}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for cell in Entity FormXml ID: '{acb2c742-73f1-4545-970a-870272bf1eb9}'</comment>
+  </data>
+  <data name="1:label,Case{af10583d-3e30-4e24-9e5d-d2a84638abe2}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for section in Entity FormXml ID: '{af10583d-3e30-4e24-9e5d-d2a84638abe2}'</comment>
+  </data>
+  <data name="1:label,Case{afcc2215-3dc0-43b7-b9dd-125c0a180700}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for section in Entity FormXml ID: '{afcc2215-3dc0-43b7-b9dd-125c0a180700}'</comment>
+  </data>
+  <data name="1:label,Case{b03cc760-ab70-463c-ba03-6ec64efff698}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for cell in Entity FormXml ID: '{b03cc760-ab70-463c-ba03-6ec64efff698}'</comment>
+  </data>
+  <data name="1:label,Case{b1105b8a-4c1c-a045-841b-d688c7826cc6}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for section in Entity FormXml ID: '{b1105b8a-4c1c-a045-841b-d688c7826cc6}'</comment>
+  </data>
+  <data name="1:label,Case{b1f997ea-9b7b-4a2d-9a33-eb3cb14e08f7}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for section in Entity FormXml ID: '{b1f997ea-9b7b-4a2d-9a33-eb3cb14e08f7}'</comment>
+  </data>
+  <data name="1:label,Case{b4685566-7c07-d9c7-7012-ab7b2cd45547}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for cell in Entity FormXml ID: '{b4685566-7c07-d9c7-7012-ab7b2cd45547}'</comment>
+  </data>
+  <data name="1:label,Case{b579ee22-ced2-44ed-0bb8-8290e9b23164}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for cell in Entity FormXml ID: '{b579ee22-ced2-44ed-0bb8-8290e9b23164}'</comment>
+  </data>
+  <data name="1:label,Case{b5aed07b-ae04-485a-a45a-17b5261fa8a7}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for cell in Entity FormXml ID: '{b5aed07b-ae04-485a-a45a-17b5261fa8a7}'</comment>
+  </data>
+  <data name="1:label,Case{b6f69544-6287-4b8a-b60c-3d66f1cac75d}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for cell in Entity FormXml ID: '{b6f69544-6287-4b8a-b60c-3d66f1cac75d}'</comment>
+  </data>
+  <data name="1:label,Case{b9e47c37-e9bd-46d0-837b-e2bf008fe8e5}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for cell in Entity FormXml ID: '{b9e47c37-e9bd-46d0-837b-e2bf008fe8e5}'</comment>
+  </data>
+  <data name="1:label,Case{ba8f5162-e954-41b6-a5e5-c020f303711b}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for section in Entity FormXml ID: '{ba8f5162-e954-41b6-a5e5-c020f303711b}'</comment>
+  </data>
+  <data name="1:label,Case{bb13b0a3-13ee-4f84-9172-c1d89622b421}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for section in Entity FormXml ID: '{bb13b0a3-13ee-4f84-9172-c1d89622b421}'</comment>
+  </data>
+  <data name="1:label,Case{be13b312-b6ac-83d7-34e1-e90dc1ecbec7}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for cell in Entity FormXml ID: '{be13b312-b6ac-83d7-34e1-e90dc1ecbec7}'</comment>
+  </data>
+  <data name="1:label,Case{be75eccd-45f3-4b40-95a5-69551b1e453a}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for cell in Entity FormXml ID: '{be75eccd-45f3-4b40-95a5-69551b1e453a}'</comment>
+  </data>
+  <data name="1:label,Case{c13923a0-e143-4d0b-b921-f92852b5dc8e}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for cell in Entity FormXml ID: '{c13923a0-e143-4d0b-b921-f92852b5dc8e}'</comment>
+  </data>
+  <data name="1:label,Case{c26fcdc2-fdac-4bed-a853-cfb9438d2591}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for cell in Entity FormXml ID: '{c26fcdc2-fdac-4bed-a853-cfb9438d2591}'</comment>
+  </data>
+  <data name="1:label,Case{c5fdfac4-9406-4ad1-b114-f409eec9e514}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for cell in Entity FormXml ID: '{c5fdfac4-9406-4ad1-b114-f409eec9e514}'</comment>
+  </data>
+  <data name="1:label,Case{c6a4b5d1-73ee-4ba0-ba39-7e0b078ca491}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for cell in Entity FormXml ID: '{c6a4b5d1-73ee-4ba0-ba39-7e0b078ca491}'</comment>
+  </data>
+  <data name="1:label,Case{c896a94e-e4c9-45ed-927c-a339d76a693c}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for cell in Entity FormXml ID: '{c896a94e-e4c9-45ed-927c-a339d76a693c}'</comment>
+  </data>
+  <data name="1:label,Case{cd51ce63-1e6c-453f-95db-ffaaa477984f}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for cell in Entity FormXml ID: '{cd51ce63-1e6c-453f-95db-ffaaa477984f}'</comment>
+  </data>
+  <data name="1:label,Case{d12b29d9-5a4a-1ec3-967a-126ce7180e3a}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for cell in Entity FormXml ID: '{d12b29d9-5a4a-1ec3-967a-126ce7180e3a}'</comment>
+  </data>
+  <data name="1:label,Case{d2609a6b-8ee5-4731-9895-97c00b502e7c}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for section in Entity FormXml ID: '{d2609a6b-8ee5-4731-9895-97c00b502e7c}'</comment>
+  </data>
+  <data name="1:label,Case{d2c3b79d-4172-4f15-aa40-e69aa7bd2ab6}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for cell in Entity FormXml ID: '{d2c3b79d-4172-4f15-aa40-e69aa7bd2ab6}'</comment>
+  </data>
+  <data name="1:label,Case{d4a4caaa-94de-4c1c-8e09-a89cc229eff6}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for cell in Entity FormXml ID: '{d4a4caaa-94de-4c1c-8e09-a89cc229eff6}'</comment>
+  </data>
+  <data name="1:label,Case{d518eeba-8636-4318-9995-ed551aebfb63}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for cell in Entity FormXml ID: '{d518eeba-8636-4318-9995-ed551aebfb63}'</comment>
+  </data>
+  <data name="1:label,Case{d5ba5702-3e66-dcb5-4a99-6190bb9c9ee7}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for cell in Entity FormXml ID: '{d5ba5702-3e66-dcb5-4a99-6190bb9c9ee7}'</comment>
+  </data>
+  <data name="1:label,Case{d6020952-d8c4-5367-0eb5-85ea01cb14a7}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for cell in Entity FormXml ID: '{d6020952-d8c4-5367-0eb5-85ea01cb14a7}'</comment>
+  </data>
+  <data name="1:label,Case{d7a4ccca-2d73-9d28-c8a7-2015ac79b431}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for cell in Entity FormXml ID: '{d7a4ccca-2d73-9d28-c8a7-2015ac79b431}'</comment>
+  </data>
+  <data name="1:label,Case{d806bd7e-c3a2-96b1-337c-00a7ddc19c99}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for cell in Entity FormXml ID: '{d806bd7e-c3a2-96b1-337c-00a7ddc19c99}'</comment>
+  </data>
+  <data name="1:label,Case{d9842a79-9570-417e-9d7c-817d09bf3e7d}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for cell in Entity FormXml ID: '{d9842a79-9570-417e-9d7c-817d09bf3e7d}'</comment>
+  </data>
+  <data name="1:label,Case{dae3e345-a070-4428-be90-ab0a926ca354}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for cell in Entity FormXml ID: '{dae3e345-a070-4428-be90-ab0a926ca354}'</comment>
+  </data>
+  <data name="1:label,Case{db20c8bd-b402-4323-83ac-514921ab7ca5}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for cell in Entity FormXml ID: '{db20c8bd-b402-4323-83ac-514921ab7ca5}'</comment>
+  </data>
+  <data name="1:label,Case{dcade6ea-49d9-4914-9d8c-4dd45d68b56c}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for cell in Entity FormXml ID: '{dcade6ea-49d9-4914-9d8c-4dd45d68b56c}'</comment>
+  </data>
+  <data name="1:label,Case{ddadbe5e-9330-970e-154e-9864b4eeae37}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for cell in Entity FormXml ID: '{ddadbe5e-9330-970e-154e-9864b4eeae37}'</comment>
+  </data>
+  <data name="1:label,Case{e0d2da00-1940-41ec-a875-80032bfd503a}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for cell in Entity FormXml ID: '{e0d2da00-1940-41ec-a875-80032bfd503a}'</comment>
+  </data>
+  <data name="1:label,Case{e1556de9-7308-4426-9d55-f6ca6846ec46}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for cell in Entity FormXml ID: '{e1556de9-7308-4426-9d55-f6ca6846ec46}'</comment>
+  </data>
+  <data name="1:label,Case{e41a12bc-599d-46be-85ca-e2c681350078}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for cell in Entity FormXml ID: '{e41a12bc-599d-46be-85ca-e2c681350078}'</comment>
+  </data>
+  <data name="1:label,Case{e493f95f-d913-4063-a929-e86a5d7b01a5}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for section in Entity FormXml ID: '{e493f95f-d913-4063-a929-e86a5d7b01a5}'</comment>
+  </data>
+  <data name="1:label,Case{e6031605-b0d3-42e6-a666-ae358e9e0a0e}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for section in Entity FormXml ID: '{e6031605-b0d3-42e6-a666-ae358e9e0a0e}'</comment>
+  </data>
+  <data name="1:label,Case{e6273a33-39c6-43d2-93d3-70ed6ff36171}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for cell in Entity FormXml ID: '{e6273a33-39c6-43d2-93d3-70ed6ff36171}'</comment>
+  </data>
+  <data name="1:label,Case{e6a3913b-faef-4851-985d-95ccee4c3ca0}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for section in Entity FormXml ID: '{e6a3913b-faef-4851-985d-95ccee4c3ca0}'</comment>
+  </data>
+  <data name="1:label,Case{e7405683-b295-4b3f-8c52-6fdc8b736a9c}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for section in Entity FormXml ID: '{e7405683-b295-4b3f-8c52-6fdc8b736a9c}'</comment>
+  </data>
+  <data name="1:label,Case{e7695773-b77d-4285-b57a-339cadbc233e}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for cell in Entity FormXml ID: '{e7695773-b77d-4285-b57a-339cadbc233e}'</comment>
+  </data>
+  <data name="1:label,Case{e8480d77-662c-60cd-1d6e-a7d67425d87e}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for cell in Entity FormXml ID: '{e8480d77-662c-60cd-1d6e-a7d67425d87e}'</comment>
+  </data>
+  <data name="1:label,Case{e8536a7b-ab85-42bf-a772-ef53b8854268}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for cell in Entity FormXml ID: '{e8536a7b-ab85-42bf-a772-ef53b8854268}'</comment>
+  </data>
+  <data name="1:label,Case{e9068e42-45da-8b06-abec-cb81e243b111}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for cell in Entity FormXml ID: '{e9068e42-45da-8b06-abec-cb81e243b111}'</comment>
+  </data>
+  <data name="1:label,Case{e94e6ac4-12db-bc8c-ec81-8b20c5987655}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for tab in Entity FormXml ID: '{e94e6ac4-12db-bc8c-ec81-8b20c5987655}'</comment>
+  </data>
+  <data name="1:label,Case{eabe87d5-4a33-4fea-9baa-7b5c39a10ebe}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for cell in Entity FormXml ID: '{eabe87d5-4a33-4fea-9baa-7b5c39a10ebe}'</comment>
+  </data>
+  <data name="1:label,Case{eafbc418-2de0-485f-9f9a-590f97e0389d}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for cell in Entity FormXml ID: '{eafbc418-2de0-485f-9f9a-590f97e0389d}'</comment>
+  </data>
+  <data name="1:label,Case{eb2985ab-3730-4c72-9902-f15d0ffd79a6}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for tab in Entity FormXml ID: '{eb2985ab-3730-4c72-9902-f15d0ffd79a6}'</comment>
+  </data>
+  <data name="1:label,Case{ec17cdd5-a6e6-4ff6-bc99-1eb782e55ecf}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for section in Entity FormXml ID: '{ec17cdd5-a6e6-4ff6-bc99-1eb782e55ecf}'</comment>
+  </data>
+  <data name="1:label,Case{ec5ce100-a11c-ae4c-4d8d-2a102a9b868a}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for cell in Entity FormXml ID: '{ec5ce100-a11c-ae4c-4d8d-2a102a9b868a}'</comment>
+  </data>
+  <data name="1:label,Case{ecc0ff6d-95eb-45ed-863e-13e68ce3c1b5}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for cell in Entity FormXml ID: '{ecc0ff6d-95eb-45ed-863e-13e68ce3c1b5}'</comment>
+  </data>
+  <data name="1:label,Case{ecec23bf-2417-4bdc-a019-0a6aca6c2500}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for tab in Entity FormXml ID: '{ecec23bf-2417-4bdc-a019-0a6aca6c2500}'</comment>
+  </data>
+  <data name="1:label,Case{f28544c6-382e-4e29-a09c-3f2804012d04}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for cell in Entity FormXml ID: '{f28544c6-382e-4e29-a09c-3f2804012d04}'</comment>
+  </data>
+  <data name="1:label,Case{f344f3e4-c7c1-43ff-8514-6405d7b8fa35}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for section in Entity FormXml ID: '{f344f3e4-c7c1-43ff-8514-6405d7b8fa35}'</comment>
+  </data>
+  <data name="1:label,Case{f3887644-363f-4d10-ad27-4d0fef12b22c}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for section in Entity FormXml ID: '{f3887644-363f-4d10-ad27-4d0fef12b22c}'</comment>
+  </data>
+  <data name="1:label,Case{f525bfca-4d7b-4105-bddd-6c7ef188f243}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for cell in Entity FormXml ID: '{f525bfca-4d7b-4105-bddd-6c7ef188f243}'</comment>
+  </data>
+  <data name="1:label,Case{f5464e76-4274-4b80-98f3-632e246643b2}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for section in Entity FormXml ID: '{f5464e76-4274-4b80-98f3-632e246643b2}'</comment>
+  </data>
+  <data name="1:label,Case{f647986d-29e7-4af0-acb9-2739817652c8}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for section in Entity FormXml ID: '{f647986d-29e7-4af0-acb9-2739817652c8}'</comment>
+  </data>
+  <data name="1:label,Case{f65d6ded-e8d2-45f7-9033-bc2884b9fc23}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for section in Entity FormXml ID: '{f65d6ded-e8d2-45f7-9033-bc2884b9fc23}'</comment>
+  </data>
+  <data name="1:label,Case{fcfdc216-e3c6-4bbe-baba-1d5774ea78f5}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for tab in Entity FormXml ID: '{fcfdc216-e3c6-4bbe-baba-1d5774ea78f5}'</comment>
+  </data>
+  <data name="1:label,Case{fe76512f-1e10-41e0-bf1b-abc9433d861c}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for cell in Entity FormXml ID: '{fe76512f-1e10-41e0-bf1b-abc9433d861c}'</comment>
+  </data>
+  <data name="1:label,Case{ffa6d363-c7d5-47da-a342-f5fb409f276c}" xml:space="preserve">
+    <value />
+    <comment>'Case' : label for tab in Entity FormXml ID: '{ffa6d363-c7d5-47da-a342-f5fb409f276c}'</comment>
+  </data>
+  <data name="1:label,Incidentnew_incident_new_vip0" xml:space="preserve">
+    <value />
+    <comment>'Incident' : label for option '0' on Entity</comment>
+  </data>
+  <data name="1:label,Incidentnew_incident_new_vip1" xml:space="preserve">
+    <value />
+    <comment>'Incident' : label for option '1' on Entity</comment>
+  </data>
+  <data name="1:LocalizedName,Case{4a63c8d1-6c1e-48ec-9db4-3e6c7155334c}" xml:space="preserve">
+    <value />
+    <comment>'Case' : LocalizedName for systemform in Entity FormXml ID: '{4a63c8d1-6c1e-48ec-9db4-3e6c7155334c}'</comment>
+  </data>
+  <data name="1:LocalizedName,Case{8e10b902-0b3e-441c-8b12-88e6c1793848}" xml:space="preserve">
+    <value />
+    <comment>'Case' : LocalizedName for systemform in Entity FormXml ID: '{8e10b902-0b3e-441c-8b12-88e6c1793848}'</comment>
+  </data>
+  <data name="1:LocalizedName,Case{8ed8553f-b520-4fe3-b2e7-59eef8301486}" xml:space="preserve">
+    <value />
+    <comment>'Case' : LocalizedName for systemform in Entity FormXml ID: '{8ed8553f-b520-4fe3-b2e7-59eef8301486}'</comment>
+  </data>
+  <data name="1:LocalizedName,Case{915f6055-2e07-4276-ae08-2b96c8d02c57}" xml:space="preserve">
+    <value />
+    <comment>'Case' : LocalizedName for systemform in Entity FormXml ID: '{915f6055-2e07-4276-ae08-2b96c8d02c57}'</comment>
+  </data>
+  <data name="1:LocalizedName,Case{e8f97346-4f58-47de-964f-cbd64a52011b}" xml:space="preserve">
+    <value />
+    <comment>'Case' : LocalizedName for systemform in Entity FormXml ID: '{e8f97346-4f58-47de-964f-cbd64a52011b}'</comment>
+  </data>
+  <data name="1:LocalizedName,Case{f658c846-f74c-459b-b591-b97558958106}" xml:space="preserve">
+    <value />
+    <comment>'Case' : LocalizedName for systemform in Entity FormXml ID: '{f658c846-f74c-459b-b591-b97558958106}'</comment>
+  </data>
+  <data name="1:Title,CaseInfo{4a63c8d1-6c1e-48ec-9db4-3e6c7155334c}" xml:space="preserve">
+    <value>Comun</value>
+    <comment>'Case' : Title for NavBarArea in Entity FormXml ID: 'Info'</comment>
+  </data>
+  <data name="1:Title,CaseInfo{915f6055-2e07-4276-ae08-2b96c8d02c57}" xml:space="preserve">
+    <value>Comun</value>
+    <comment>'Case' : Title for NavBarArea in Entity FormXml ID: 'Info'</comment>
+  </data>
+  <data name="1:Title,CaseMarketing{4a63c8d1-6c1e-48ec-9db4-3e6c7155334c}" xml:space="preserve">
+    <value>Marketing</value>
+    <comment>'Case' : Title for NavBarArea in Entity FormXml ID: 'Marketing'</comment>
+  </data>
+  <data name="1:Title,CaseMarketing{915f6055-2e07-4276-ae08-2b96c8d02c57}" xml:space="preserve">
+    <value>Marketing</value>
+    <comment>'Case' : Title for NavBarArea in Entity FormXml ID: 'Marketing'</comment>
+  </data>
+  <data name="1:Title,CasenavActivities{4a63c8d1-6c1e-48ec-9db4-3e6c7155334c}" xml:space="preserve">
+    <value>Activități</value>
+    <comment>'Case' : Title for NavBarByRelationshipItem in Entity FormXml ID: 'navActivities'</comment>
+  </data>
+  <data name="1:Title,CasenavActivityHistory{4a63c8d1-6c1e-48ec-9db4-3e6c7155334c}" xml:space="preserve">
+    <value>Activități închise</value>
+    <comment>'Case' : Title for NavBarByRelationshipItem in Entity FormXml ID: 'navActivityHistory'</comment>
+  </data>
+  <data name="1:Title,CasenavProcessSessions{4a63c8d1-6c1e-48ec-9db4-3e6c7155334c}" xml:space="preserve">
+    <value>Procese în timp real</value>
+    <comment>'Case' : Title for NavBarByRelationshipItem in Entity FormXml ID: 'navProcessSessions'</comment>
+  </data>
+  <data name="1:Title,Casenav_msdyn_incident_msdyn_workorder_ServiceRequest{4a63c8d1-6c1e-48ec-9db4-3e6c7155334c}" xml:space="preserve">
+    <value>Comenzi de lucru</value>
+    <comment>'Case' : Title for NavBarByRelationshipItem in Entity FormXml ID: 'nav_msdyn_incident_msdyn_workorder_ServiceRequest'</comment>
+  </data>
+  <data name="1:Title,CaseProcessCenter{4a63c8d1-6c1e-48ec-9db4-3e6c7155334c}" xml:space="preserve">
+    <value>Sesiuni de proces</value>
+    <comment>'Case' : Title for NavBarArea in Entity FormXml ID: 'ProcessCenter'</comment>
+  </data>
+  <data name="1:Title,CaseProcessCenter{915f6055-2e07-4276-ae08-2b96c8d02c57}" xml:space="preserve">
+    <value>Sesiuni de proces</value>
+    <comment>'Case' : Title for NavBarArea in Entity FormXml ID: 'ProcessCenter'</comment>
+  </data>
+  <data name="1:Title,CaseSales{4a63c8d1-6c1e-48ec-9db4-3e6c7155334c}" xml:space="preserve">
+    <value>Vânzări</value>
+    <comment>'Case' : Title for NavBarArea in Entity FormXml ID: 'Sales'</comment>
+  </data>
+  <data name="1:Title,CaseSales{915f6055-2e07-4276-ae08-2b96c8d02c57}" xml:space="preserve">
+    <value>Vânzări</value>
+    <comment>'Case' : Title for NavBarArea in Entity FormXml ID: 'Sales'</comment>
+  </data>
+  <data name="1:Title,CaseService{4a63c8d1-6c1e-48ec-9db4-3e6c7155334c}" xml:space="preserve">
+    <value>Field Service</value>
+    <comment>'Case' : Title for NavBarArea in Entity FormXml ID: 'Service'</comment>
+  </data>
+  <data name="1:Title,CaseService{915f6055-2e07-4276-ae08-2b96c8d02c57}" xml:space="preserve">
+    <value>Serviciu</value>
+    <comment>'Case' : Title for NavBarArea in Entity FormXml ID: 'Service'</comment>
+  </data>
+</root>
