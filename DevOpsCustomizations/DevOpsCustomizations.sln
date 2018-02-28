@@ -7,8 +7,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevOpsPlugins", "DevOpsPlug
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevOpsPackage", "DevOpsPackage\DevOpsPackage.csproj", "{170C0103-3F94-4896-9062-6314167F596A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevOps365Test", "Customisations\DevOps365Test.CSPROJ", "{2DDE7A29-46E0-400A-AA5D-3BFF7574E5D7}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,10 +21,6 @@ Global
 		{170C0103-3F94-4896-9062-6314167F596A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{170C0103-3F94-4896-9062-6314167F596A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{170C0103-3F94-4896-9062-6314167F596A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{2DDE7A29-46E0-400A-AA5D-3BFF7574E5D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2DDE7A29-46E0-400A-AA5D-3BFF7574E5D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2DDE7A29-46E0-400A-AA5D-3BFF7574E5D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2DDE7A29-46E0-400A-AA5D-3BFF7574E5D7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
