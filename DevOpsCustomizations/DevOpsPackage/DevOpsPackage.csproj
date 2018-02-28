@@ -123,9 +123,19 @@
     <Content Include="GettingStarted\support\ImageSprite.png" />
     <Content Include="GettingStarted\support\microsoftLogoForHeader.png" />
     <Content Include="map.xml" />
+    <Content Include="package\Entities\Incident\Entity.xml" />
+    <Content Include="package\Entities\Incident\FormXml\card\{e8f97346-4f58-47de-964f-cbd64a52011b}.xml" />
+    <Content Include="package\Entities\Incident\FormXml\main\{4a63c8d1-6c1e-48ec-9db4-3e6c7155334c}.xml" />
+    <Content Include="package\Entities\Incident\FormXml\main\{915f6055-2e07-4276-ae08-2b96c8d02c57}.xml" />
+    <Content Include="package\Entities\Incident\FormXml\main\{f658c846-f74c-459b-b591-b97558958106}.xml" />
+    <Content Include="package\Entities\Incident\FormXml\quickCreate\{8e10b902-0b3e-441c-8b12-88e6c1793848}.xml" />
+    <Content Include="package\Entities\Incident\FormXml\quick\{8ed8553f-b520-4fe3-b2e7-59eef8301486}.xml" />
+    <Content Include="package\Entities\Incident\RibbonDiff.xml" />
     <Content Include="package\Other\Customizations.xml" />
     <Content Include="package\Other\Relationships.xml" />
+    <Content Include="package\Other\Relationships\msdyn_incidenttype.xml" />
     <Content Include="package\Other\Solution.xml" />
+    <Content Include="package\WebResources\new_test.data.xml" />
     <Content Include="PkgFolder\Content\en-us\EndHtml\CSS\common.css">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
@@ -207,6 +217,7 @@
     <None Include="packages.config">
       <SubType>Designer</SubType>
     </None>
+    <None Include="package\WebResources\new_test" />
     <None Include="PkgFolder\WebResources\new_test576C8445-0113-E811-A8A4-00224801A03A">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
